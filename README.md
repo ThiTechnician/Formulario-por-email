@@ -1,2 +1,7 @@
 # Formulario-por-email
+
 Aplicação windows simples para fins de estudo.
+Autor: Thiago Martins Carvalho de Medeiros
+Contato: https://www.linkedin.com/in/thiago-carvalho-2020/
+
+Trata-se de um pequeno formulário em interface gráfica, com 3 campos para a inserção de dados e dois botões. Um dos botões salva as informações digitadas em um arquivo chamado "Dados.csv". O outro botão envia todo o conteúdo do arquivo Dados.csv, inclusive os dados existentes no arquivo que sejam remanescentes de execuções anteriores do programa principal, para um email pré definido. O código é escrito em Python usando as bibliotecas smtplib e tkinter, além de algumas funções buit-in do Python. Note que o código tem um espaço reservado para a inserção de um usuário e senha de email, para fins de teste pode-se inserir esses dados diretamente no corpo do código, mas para o caso de distribuição recomenda-se ler esses dados de um arquivo separado por questão de segurança. A escolha da extensão "csv" para o arquivo "Dados" é estratégica pois se trata de um arquivo de texto simples de editar e pode ser facilmente manipulado posteriormente por programas como o Excel e o Microsoft Power BI. Essa é apenas uma base e pode receber inúmeras melhorias como um campo que lista os dados já inseridos antes de enviar por email, um botão para apagar informações, um campo para adicionar os emails dos destinatários etc. Disponibilizarei uma versão código comentada em PDF e uma versão mais enxuta em arquivo Python.
